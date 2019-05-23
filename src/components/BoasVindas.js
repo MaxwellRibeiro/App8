@@ -9,6 +9,7 @@ export default props => (
                 <Text style={{ fontSize: 20, color: '#ffffff' }}>Seja Bem-Vindo</Text>
                 <Image source={require('../imgs/logo.png')} />
             </View>
+            
             <View style={{ flex: 1 }}>
                 <Button title="Fazer Login" onPress={() => Actions.formLogin() } />
             </View>
