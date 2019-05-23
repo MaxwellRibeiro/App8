@@ -14,6 +14,7 @@ class formCadastro extends Component {
 
         const { nome, email, senha } = this.props;
 
+
         this.props.cadastraUsuario({ nome, email, senha });
     }
 
